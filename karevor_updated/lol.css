@@ -1,0 +1,126 @@
+body {
+    background-image: url("lol.png");
+    text-align: center;
+}
+
+nav {
+    float: left;
+    z-index: avto;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    background-color: rgba(255,0,0,0.5);
+    width: 300px;
+    height: 160;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 10px;
+}
+
+    nav a {
+        text-decoration: none;
+        color: #ffffb8;
+        font-family: Arial;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+        nav a :hover {
+            color: # ffa99e;
+        }
+
+hr {
+    border-color: #ffa99e;
+}
+
+main {
+    background-color: rgba(255,169,158, 0.7);
+    border: 2px solid #ffffb8;
+    border-radius: 20px;
+}
+
+    main span {
+        height: 200px;
+        width: 400px;
+    }
+
+    main img {
+        position: relative;
+        left: 400px;
+        z-index: 5;
+        height: 150px;
+        width: 100px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+.image{position: relative; height: 2px; 
+     position: absolute; right: 30px; bottom: 180px; 
+}
+.lo{
+    margin-top:530px;
+   
+}
+#countrydiv {
+    background-color: rgba(255,255,184, 0.8);
+}
+
+span {
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+}
+a:link{
+            text-decoration:none;
+            color:black;
+           
+        }
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+    
+}
+h2 {
+    background-image: url("");
+    font-family: arial;
+    color: #008000;
+}
+
+
+
+img {
+    height: 150px;
+    width: 150px;
+    float: centar;
+    margin: 10%;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+
+#foot {
+    height: 360px;
+    margin: 10px;
+    background-repeat: no-repea;
+}
+
+#footspan {
+    margin-top: 20px;
+}
+
+texttarea {
+    width: 600px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #ffa99e;
+}
+
+bottum {
+    width: 600px;
+    height: 40px;
+    border: none;
+    color: red;
+    border-radius: 20px;
+    font-family: forte;
+    font-size: 17px;
+}
