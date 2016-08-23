@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+   
+    <title>robot</title>
+<style>
+#showAnswer{
+display:none;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+    
+    
+
+<div id="questionDiv">
+	<img src="ro.png">
+<form>
+        <label>Ask me your question<br />
+        <textarea placeholder="Ask me your question"></textarea>
+		        </label>
+				 </form>
+</div>
+<div id="showAnswer">
+	<img src="robot.gif">
+	<h2>the answer is:</h2>
+	<h3 id="answer"></h3>
+</div>
+
+   
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+<br />
+    <form>
+<label>enter name <br />
+    <input type="text" name="names" placeholder="enter name">
+</label>
+        <br />
+		<br>
+         <label>enter password  <br />
+            <input type="password" name="password" id="password" placeholder="enter password">
+        </label>
+
+
+
+    </form >
+	<br>
+	<hr>
+	<br>
+    
+    <input onclick="show()" id="lo" type="submit" value="button">
+       
+<br>
+
+
+ <script> 
+
+	
+	
+var show=function(){
+	var hiddenDiv= document.getElementById("showAnswer");
+	
+	var answer = document.getElementById("answer");
+	 var password = document.getElementById("password").value;
+	 answer.innerHTML = password;
+	 document.getElementById("questionDiv").style.display = "none";
+	 hiddenDiv.style.display="block";
+		
+	};
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</script>
+</body>
+</html>
