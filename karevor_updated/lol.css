@@ -11,10 +11,10 @@ nav {
     z-index: avto;
     position: fixed;
     left: 0;
-    top: 80px;
+    top: 70px;
     background-color: rgba(255,0,0,0.5);
     width: 300px;
-    height: 160px;
+    height: 180px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     padding: 10px;
