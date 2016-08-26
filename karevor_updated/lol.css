@@ -2,7 +2,10 @@ body {
     background-image: url("lol.png");
     text-align: center;
 }
-
+#levon{
+    margin:3px;
+    
+}
 nav {
     float: left;
     z-index: avto;
